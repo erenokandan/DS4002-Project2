@@ -25,7 +25,7 @@ Both Mac and Windows machines were used during the process, project will replica
     -  DS4002_Project2.ipynb = Master script
     -  P2_Cleaning.Rmd = R Markdown file detailing how the intial dataset was cleaned
     - 
-  - Readnme.md
+  - Readme.md
   - LICENSE
   - References
 
