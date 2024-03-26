@@ -1,0 +1,32 @@
+---
+title: "DS4002_P2_Cleaning"
+author: "Nathan Geng"
+date: '2024-03-21'
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r}
+library(countrycode)
+```
+
+```{r}
+
+# reading in the original dataset and assigning it to a variable
+
+df <- read.csv("Annual_Surface_Temperature_Change_initial.csv")
+
+# getting rid of variables that were are redundant/unnecessary
+
+df_2 <- subset(df, select = -c(ISO2, ISO3, Indicator, Unit, Source, CTS_Code, CTS_Name, CTS_Full_Descriptor))
+
+#creating a new continent variable using countrycode package
+
+df_2$continent <- countrycode(df_2$Country, "country.name", "continent")
+
+# deleting countries with no temperature data
+
+df_final <- df_2[complete.cases(df_2[, c("F1961", "F1962")]), ]
+
+```
+
