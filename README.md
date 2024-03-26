@@ -23,7 +23,7 @@ Both Mac and Windows machines were used during the process, project will replica
     - Figure 3.png
   - SCRIPTS
     -  DS4002_Project2.ipynb = Master script
-    -  
+    -  P2_Cleaning.Rmd = R Markdown file detailing how the intial dataset was cleaned
     - 
   - Readnme.md
   - LICENSE
