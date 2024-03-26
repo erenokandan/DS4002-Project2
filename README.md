@@ -30,5 +30,5 @@ Both Mac and Windows machines were used during the process, project will replica
   - References
 
 ## Reproducing Results
-To replicate results of this study, first step will downloading the original dataset from the Data folder in github, McDonalds_reviews.csv.
-After donwloading the original dataset, next step will be running the master script, where data is cleaned, Vader package is ran, and cleaned data is downloaded in the current working directionary within your machine. Cleaned dataset, Mcdonalds_clean.csv, can also be used for data visualization done in R or the one genrated withion the master script. Lastly, H test was run by running DS4002_P1_hTesting.Rmd.
+To replicate results of this study, first step will downloading the original dataset from the website of International Monetary Fund(IMF) in github, surfce_temp.csv.
+After donwloading the original dataset, next step will be running a regression to analyze the data. Cleaned dataset, surface_temp_final.csv, can also be used for recreatring the graphs and EDA analysis we performed in this project.
